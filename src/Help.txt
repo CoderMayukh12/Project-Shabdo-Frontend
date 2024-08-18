@@ -1,0 +1,2 @@
+Copy Like This : <FontAwesomeIcon icon={faEnvelope} />
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
