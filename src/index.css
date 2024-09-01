@@ -85,13 +85,15 @@ h1 {
 /* Hero.css */
 
 .typewriter {
-  overflow: hidden; /* Ensures that the text stays within the container */
-  border-right: 0.15em solid #000; /* Blinking cursor */
-  white-space: nowrap; /* Keeps the text on a single line */
-  margin: 0 auto; /* Center the text */
+  overflow: hidden;
+  border-right: 0.15em solid #000;
+  white-space: nowrap;
+  margin: 1px auto;
   animation: typing 5.5s steps(40, end), blink-caret 0.75s step-end infinite;
-  max-width: 100%; /* Ensure the text doesn't overflow */
-  box-sizing: border-box; /* Include padding and border in the element's width */
+  max-width: 100%;
+  box-sizing: border-box;
+  line-height: 1.2; /* Adjusted line-height to provide more vertical space */
+  padding-bottom: 0.1em; /* Added padding at the bottom to ensure the full 'g' displays */
 }
 
 @keyframes typing {
